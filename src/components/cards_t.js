@@ -30,7 +30,7 @@ const Cards= (props) => (
                 <h2>{props.n2}<br></br><span>designer</span> </h2>
             </div>
         </div>
-        <div className="box_c">
+        {/* <div className="box_c">
             <div className="imgbc">
                 <img src={img3} alt="nemo" >
                 </img>
@@ -38,7 +38,7 @@ const Cards= (props) => (
             <div className="c_content">
                 <h2>{props.n3}<br></br><span>designer</span> </h2>
             </div>
-        </div>
+        </div> */}
         {/* <img src={img3} alt="nemo" >
                 </img> */}
     </div></div>
