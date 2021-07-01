@@ -6,32 +6,36 @@
     justify-content:center;
     align-items: center;
     min-height: 100vh;
-    background: radial-gradient(#969696,#161616);
+    background:  linear-gradient(#96969600,#16161600,rgb(17, 17, 17));
   }
   .tit{
 position: relative;
     font-family: 'Poppins',sans-serif;
     font-size: 9em;
-    color:#ffff;
+    color:rgb(255, 255, 255);
     text-transform: uppercase;
     transform: rotate(-20deg) skew(25deg);
     animation: animate 5s ease-in-out infinite;
-    z-index:0;
+    z-index: inherit 90;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-image: url("https://media1.thehungryjpeg.com/thumbs2/ori_112091_12a25f4ae1acf7a2fc864f57a5e94547636a840d_15-seamless-light-wood-background-textures.jpg");
 
 }
 @keyframes animate
 {
     0%,100%{
         transform: rotate(-20deg) skew(25deg) translate(0.0);
-        text-shadow: -5px 5px 0 rgba(0, 0, 0, .2);
+        text-shadow: 2px 2px #000000;
 
     }
     50%{
         transform: rotate(-20deg) skew(25deg) translate(50px,-50px);
-        text-shadow: -50px 50px 0 rgba(0, 0, 0, .2);
+        text-shadow: -50px 50px 0 rgb(0, 0, 0);
         /* filter: blur(15px); */
     }
 }
+
 @media only screen and (max-width: 600px) {
     main{
         max-width: 600px;

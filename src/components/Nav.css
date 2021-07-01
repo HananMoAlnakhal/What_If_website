@@ -24,7 +24,7 @@
   }
   
   body::-webkit-scrollbar-thumb {
-    background: #6649b8;
+    background: #ff6f00;
   }
   
   main {
@@ -96,11 +96,11 @@
   
   
   .fa-primary {
-    color: #ff7eee;
+    color: #bb4200;
   }
   
   .fa-secondary {
-    color: #df49a6;
+    color: #ff6f00;
   }
   
   .fa-primary,

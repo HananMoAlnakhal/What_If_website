@@ -50,6 +50,14 @@ function Nav() {
       </li>
 
       <li className="nav-item">
+        <a href="/Edu" className="nav-link">
+          <div style={{fontsize: "40px"},{color:"#ff6f00"}}>
+            <i class="fas fa-user-graduate fa-lg"></i>
+          </div>
+          <span className="link-text">Education</span>
+        </a>
+      </li>
+      <li className="nav-item">
         <a href="/Sports" className="nav-link">
           <div style={{color:"rgb(111, 255, 0)"}}>
           <i class="fas fa-baseball-ball fa-lg"></i>
@@ -58,32 +66,24 @@ function Nav() {
         </a>
       </li>
 
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a href="/Space" className="nav-link">
           <div style={{fontsize: "40px"},{color:"#bf6cff"}}>
             <i class="fas fa-rocket fa-lg"></i>
           </div>
           <span className="link-text">Space</span>
         </a>
-      </li>
-{/* 
-      <li className="nav-item">
-        <a href="/Edu" className="nav-link">
-          <div style={{fontsize: "40px"},{color:"#ff0037"}}>
-            <i class="fas fa-user-graduate fa-lg"></i>
-          </div>
-          <span className="link-text">Education</span>
-        </a>
       </li> */}
 
-      <li className="nav-item">
+
+      {/* <li className="nav-item">
         <a href="/Eco" className="nav-link">
           <div style={{fontsize: "40px"},{color:"#00f7ff"}}>
             <i class="fas fa-chart-line fa-lg"></i>
           </div>
           <span className="link-text">Economy</span>
         </a>
-      </li>
+      </li> */}
 
     </ul>
   </nav>
